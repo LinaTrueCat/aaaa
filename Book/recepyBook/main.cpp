@@ -5,14 +5,15 @@ using namespace std;
 int main() {
     cout << "Opening book..." << endl;
     {
-        recepy grecha("Greecha", 50);
-        recepy rus("rus", 20);
-
+        recepy grecha("Greecha", 50, 1);
         grecha.showStatus();
-        rus.showStatus();
+        grecha.meatStatus();
+        
+        recepy potato("Potato", 20, 0);
+        potato.showStatus();
+        potato.meatStatus();
+    }
 
-    } 
-   
     cout << "Close book" << endl;
     return 0;
 }

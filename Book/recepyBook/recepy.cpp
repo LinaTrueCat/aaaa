@@ -1,7 +1,7 @@
 #include "recepy.h"
 
-recepy::recepy(string n, int p ): name(n), page(p) {
-    cout << "Recepy " << name << " created with Health: " << endl;
+recepy::recepy(string n, int p, bool m) : name(n), page(p), meat(m) {
+    cout << "Recepy " << name << " on the page " << page << endl;
 }
 
 recepy::~recepy() {
@@ -9,5 +9,16 @@ recepy::~recepy() {
 }
 
 void recepy::showStatus() {
-    cout << "recepy: " << name << " on the page " << page << endl;
+
+    cout << "some status" << endl;
+}
+void recepy::meatStatus() {
+    if (meat == 0) {
+        cout << "has not meat" << endl;
+    }
+    else {
+        cout << "has meat" << endl;
+    }
+    
+
 }
