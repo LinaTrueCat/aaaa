@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\11\\source\\repos\\recepyBook\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CF158324-55CB-4A88-8372-CF2FF254BE21}|recepyBook\\recepyBook.vcxproj|C:\\Users\\11\\source\\repos\\recepyBook\\recepyBook\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF158324-55CB-4A88-8372-CF2FF254BE21}|recepyBook\\recepyBook.vcxproj|solutionrelative:recepyBook\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF158324-55CB-4A88-8372-CF2FF254BE21}|recepyBook\\recepyBook.vcxproj|C:\\Users\\11\\source\\repos\\recepyBook\\recepyBook\\recepy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF158324-55CB-4A88-8372-CF2FF254BE21}|recepyBook\\recepyBook.vcxproj|solutionrelative:recepyBook\\recepy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF158324-55CB-4A88-8372-CF2FF254BE21}|recepyBook\\recepyBook.vcxproj|C:\\Users\\11\\source\\repos\\recepyBook\\recepyBook\\recepy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF158324-55CB-4A88-8372-CF2FF254BE21}|recepyBook\\recepyBook.vcxproj|solutionrelative:recepyBook\\recepy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "recepy.h",
+              "DocumentMoniker": "C:\\Users\\11\\source\\repos\\recepyBook\\recepyBook\\recepy.h",
+              "RelativeDocumentMoniker": "recepyBook\\recepy.h",
+              "ToolTip": "C:\\Users\\11\\source\\repos\\recepyBook\\recepyBook\\recepy.h",
+              "RelativeToolTip": "recepyBook\\recepy.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-09T12:18:28.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\11\\source\\repos\\recepyBook\\recepyBook\\main.cpp",
+              "RelativeDocumentMoniker": "recepyBook\\main.cpp",
+              "ToolTip": "C:\\Users\\11\\source\\repos\\recepyBook\\recepyBook\\main.cpp",
+              "RelativeToolTip": "recepyBook\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-09T12:18:12.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "recepy.cpp",
+              "DocumentMoniker": "C:\\Users\\11\\source\\repos\\recepyBook\\recepyBook\\recepy.cpp",
+              "RelativeDocumentMoniker": "recepyBook\\recepy.cpp",
+              "ToolTip": "C:\\Users\\11\\source\\repos\\recepyBook\\recepyBook\\recepy.cpp",
+              "RelativeToolTip": "recepyBook\\recepy.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-09T12:18:00.143Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
