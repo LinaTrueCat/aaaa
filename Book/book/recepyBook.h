@@ -9,18 +9,14 @@ using namespace std;
 class RecepyBook {
 private:
     string name;
-    bool vegStatus;
-    int wish;
+    int numbPages = 20;
 
 public:
-    RecepyBook(string n, int w, bool v);
-    RecepyBook(string n, bool v);
+    RecepyBook(string n);
     ~RecepyBook();
 
-    void showStatus() const;
-    void showVegStatus() const;
-    void showWish() const;
-    void showRecs() const;
+ //   void showStatus() const; (skiko zaraz use)
+    void showSize() const;
 };
 
 #endif // RECEPYBOOK_H

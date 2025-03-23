@@ -1,26 +1,52 @@
 ﻿#include <iostream>
 #include "recepy.h"
 #include "nps.h"
+#include "recepyBook.h"
 
 using namespace std;
 
 int main() {
-    cout << "Opening book..." << endl;
-    {
-        Recepy grecha("Greecha", 50, true);
-        grecha.showStatus();
-        grecha.meatStatus();
+    cout << "\n--- Creating Books ---\n";
+    RecepyBook book1("Grandma's Recipes", 200, "This book contains ancient cooking secrets...");
 
-        Recepy potato("Potato", 20, false);
-        potato.showStatus();
-        potato.meatStatus();
+    cout << "\n--- Moving Book ---\n";
+    RecepyBook book2 = move(book1); // Викликає move-конструктор
 
-        Nps bob("Bob", 1, true);
-        bob.showStatus();
-        bob.showVegStatus();
-        bob.showWish();
-    }
+    Recepy grecha("Grecha", 20);
+    Recepy potato("Potato", 30);
+    Recepy surnuku("Surnuku", 40, false);
 
-    cout << "Close book" << endl;
+    cout << "Amount of Recepy is: " << Recepy::getAmountOfRecepy() << endl;
+
+    grecha.recepyStatus();
+    grecha.meatStatus();
+    Recepy vegGrecha = grecha;
+    vegGrecha.recepyStatus();
+    vegGrecha.meatStatus();
+
+    potato.recepyStatus();
+    potato.meatStatus();
+    Recepy vegPotato = potato;
+    vegPotato.recepyStatus();
+    vegPotato.meatStatus();
+
+    surnuku.recepyStatus();
+    surnuku.meatStatus();
+    Recepy vegSurnuku = surnuku;
+    vegSurnuku.recepyStatus();
+    vegSurnuku.meatStatus();
+
+    cout << endl;
+
+    Nps bob("Bob", 1, false);
+    Nps gigi("Gigi", 2, true);
+    Nps maruna("Maruna", 3, false);
+
+    bob.chooseRecepy(grecha);
+    gigi.chooseRecepy(potato);
+    maruna.chooseRecepy(surnuku);
+
+    cout << endl;
+
     return 0;
 }

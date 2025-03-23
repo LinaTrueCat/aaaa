@@ -11,11 +11,13 @@ private:
     bool meat;
 
 public:
-    Recepy(string n, int p, bool m);
+    Recepy();
+    Recepy(string n, int p = 0, bool m = false);
     ~Recepy();
 
-    void showStatus() const;
     void meatStatus() const;
+    string getName() const { return name; } 
+    int getPage() const { return page; }  
 };
 
 #endif // RECEPY_H
